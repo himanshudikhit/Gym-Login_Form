@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu fitness</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    /* CSS reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("img/gym.webp");
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+
+    }
+
+    .mid {
+        display: block;
+        width: 39%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 32px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 26;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 23px;
+
+    }
+
+    .navbar li a {
+        color:rgb(238, 34, 68);
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(60, 57, 57);
+    }
+
+    .container {
+        border: 2px solid rgb(246, 237, 237);
+        margin: 170px auto;
+        padding: 35px 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .from-group input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container .btn {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+
+    }
+    .container h1{
+        color:rgb(45, 41, 247);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- leftbox for ]logo -->
+        <div class="left">
+            <img src="img/fitness-gym-logo-with-strong-athlete-and-barbell-vector.jpg" alt="">
+            <div>Himanshu Fitness</div>
+        </div>
+        <!-- mid for navigation nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <!-- rightbox for buttons -->
+        <div class="right">
+            <button class="btn">call us now </button>
+            <button class="btn">Email us </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym of Puri now</h1>
+        <form action="noaction.php">
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your  Locality">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your  phn-number">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your  email">
+            </div>
+
+            <button class="btn">
+                sumbit
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
